@@ -1,3 +1,9 @@
+braek (1.2-1) unstable; urgency=low
+
+  * Initial Maemo Leste import
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Thu, 20 May 2021 01:18:32 +0200
+
 braek (1.1-1) unstable; urgency=low
 
   * New upstream release
