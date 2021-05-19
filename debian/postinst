@@ -1,0 +1,7 @@
+#! /bin/sh
+
+# We have to update the icon cache
+gtk-update-icon-cache -f /usr/share/icons/hicolor
+
+#DEBHELPER#
+
