@@ -1,7 +1,7 @@
 PROG=braek
 
 braek: braek.c braek.h
-	$(CC) -o braek braek.c $$(pkg-config --cflags -libs cairo cairo-png gtk+-2.0)
+	$(CC) -o braek braek.c $$(pkg-config --cflags --libs cairo cairo-png gtk+-2.0)
 
 clean:
 	rm -f $(PROG)
